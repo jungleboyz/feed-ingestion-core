@@ -50,7 +50,7 @@ class Summarizer:
         openai_api_key: Optional[str] = None,
         anthropic_api_key: Optional[str] = None,
         openai_model: str = "gpt-3.5-turbo",
-        anthropic_model: str = "claude-3-haiku-20240307",
+        anthropic_model: str = "claude-haiku-4-5",  # claude-3-haiku-20240307 is retired (404)
         prefer_anthropic: bool = True,
         max_content_chars: int = 12000,
         temperature: float = 0.5,
